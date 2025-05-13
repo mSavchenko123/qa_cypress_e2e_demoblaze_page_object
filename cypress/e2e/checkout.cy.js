@@ -1,10 +1,10 @@
 /// <reference types='cypress' />
-import HomeAndCataloguePageObject
-  from '../support/pages/homeCatalogue.pageObject';
-import PageObject
-  from '../support/PageObject';
-import CartPage
-  from '../support/pages/cartPage.pageObject';
+import HomeAndCataloguePageObject from
+  '../support/pages/homeCatalogue.pageObject';
+import PageObject from
+  '../support/PageObject';
+import CartPage from
+  '../support/pages/cartPage.pageObject';
 
 const homePage = new HomeAndCataloguePageObject();
 const pageObject = new PageObject();
